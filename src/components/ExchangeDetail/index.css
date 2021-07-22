@@ -1,0 +1,42 @@
+
+.detailBlock {
+    width: 460px;
+    height: 319px;
+    display: flex;
+    padding: 28px 33px;
+    background: #fff;
+    flex-direction: column;
+    box-shadow: 0 8px 28px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+
+.detailBlock .title {
+    font-weight: bold;
+    font-size: 48px;
+    color: #3A3A3A;
+}
+
+.detailBlock .innerRow {
+    display: flex;
+    color: #818181;
+    margin-bottom: 33px;
+    justify-content: space-between;
+}
+
+.detailBlock .innerRow span:last-child {
+    color: #3A3A3A;
+}
+
+.detailBlock .buttonsBlock {
+    display: flex;
+    justify-content: center;
+}
+
+.detailBlock .buttonsBlock button {
+    width: 125px;
+    padding: 11px 0;
+}
+
+.detailBlock .buttonsBlock button:first-child {
+    margin-right: 24px;
+}
